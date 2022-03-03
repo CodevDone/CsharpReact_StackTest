@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "/work/DevOrc.Try/DevOrc.Try.Tests/DevOrc.Try.Tests.csproj": {}
+  },
+  "projects": {
+    "/work/DevOrc.Try/DevOrc.Try.API/DevOrc.Try.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/work/DevOrc.Try/DevOrc.Try.API/DevOrc.Try.API.csproj",
+        "projectName": "DevOrc.Try.API",
+        "projectPath": "/work/DevOrc.Try/DevOrc.Try.API/DevOrc.Try.API.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/work/DevOrc.Try/DevOrc.Try.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj"
+              },
+              "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj",
+        "projectName": "DevOrc.Try.BLL",
+        "projectPath": "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/work/DevOrc.Try/DevOrc.Try.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj",
+        "projectName": "DevOrc.Try.DAL",
+        "projectPath": "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/work/DevOrc.Try/DevOrc.Try.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/work/DevOrc.Try/DevOrc.Try.Tests/DevOrc.Try.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/work/DevOrc.Try/DevOrc.Try.Tests/DevOrc.Try.Tests.csproj",
+        "projectName": "DevOrc.Try.Tests",
+        "projectPath": "/work/DevOrc.Try/DevOrc.Try.Tests/DevOrc.Try.Tests.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/work/DevOrc.Try/DevOrc.Try.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/work/DevOrc.Try/DevOrc.Try.API/DevOrc.Try.API.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.API/DevOrc.Try.API.csproj"
+              },
+              "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.BLL/DevOrc.Try.BLL.csproj"
+              },
+              "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj": {
+                "projectPath": "/work/DevOrc.Try/DevOrc.Try.DAL/DevOrc.Try.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Nsubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

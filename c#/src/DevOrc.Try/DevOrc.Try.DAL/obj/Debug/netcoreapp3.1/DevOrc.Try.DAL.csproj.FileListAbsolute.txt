@@ -1,0 +1,12 @@
+/work/DevOrc.Try/DevOrc.Try.DAL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.deps.json
+/work/DevOrc.Try/DevOrc.Try.DAL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.runtimeconfig.json
+/work/DevOrc.Try/DevOrc.Try.DAL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.runtimeconfig.dev.json
+/work/DevOrc.Try/DevOrc.Try.DAL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.dll
+/work/DevOrc.Try/DevOrc.Try.DAL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.pdb
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.csprojAssemblyReference.cache
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.AssemblyInfoInputs.cache
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.AssemblyInfo.cs
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.csproj.CoreCompileInputs.cache
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.dll
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.pdb
+/work/DevOrc.Try/DevOrc.Try.DAL/obj/Debug/netcoreapp3.1/DevOrc.Try.DAL.genruntimeconfig.cache

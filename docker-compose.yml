@@ -1,0 +1,33 @@
+version: '3.4'
+services:
+  csharp:
+    #docker run -it -v ${PWD}:/work -w /work -p 5001:5001 danidevdock/csharp:1.0.0 /bin/sh
+    container_name: csharp_react
+    image: danidevdock/csharp:1.0.0
+    build:
+      context: ./c#
+      target: debug
+      network: host
+    working_dir: /work
+    entrypoint: /bin/sh
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./c#/src/:/work
+    ports:
+      - 5001:5001
+    depends_on:
+      - mssql_azure
+
+  mssql_azure:
+    container_name: mssql_azure_cr
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    build:
+      network: host
+    volumes:
+      - ./dbSqlServerAzure/:/var/opt/mssql
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_SA_PASSWORD=Sql_Server123

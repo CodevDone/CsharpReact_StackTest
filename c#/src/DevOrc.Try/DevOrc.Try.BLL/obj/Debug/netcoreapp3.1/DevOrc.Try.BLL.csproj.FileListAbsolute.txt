@@ -1,0 +1,12 @@
+/work/DevOrc.Try/DevOrc.Try.BLL/bin/Debug/netcoreapp3.1/DevOrc.Try.BLL.deps.json
+/work/DevOrc.Try/DevOrc.Try.BLL/bin/Debug/netcoreapp3.1/DevOrc.Try.BLL.dll
+/work/DevOrc.Try/DevOrc.Try.BLL/bin/Debug/netcoreapp3.1/DevOrc.Try.BLL.pdb
+/work/DevOrc.Try/DevOrc.Try.BLL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.dll
+/work/DevOrc.Try/DevOrc.Try.BLL/bin/Debug/netcoreapp3.1/DevOrc.Try.DAL.pdb
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.csprojAssemblyReference.cache
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.AssemblyInfoInputs.cache
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.AssemblyInfo.cs
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.csproj.CoreCompileInputs.cache
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.csproj.CopyComplete
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.dll
+/work/DevOrc.Try/DevOrc.Try.BLL/obj/Debug/netcoreapp3.1/DevOrc.Try.BLL.pdb
